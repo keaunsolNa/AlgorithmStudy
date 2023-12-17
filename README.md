@@ -19,7 +19,7 @@
 ## 코드 작성시 README.md 파일도 함께 작성합니다.
 <p> README.md 파일은 문제에 대한 내용(백준허브 추천) + 문제 풀이 시 접근방법, 상세 풀이 등을 적습니다.</p>
 
-:sunny: Contributors
+☀️ Contributors
 |아이디|참여문제|
 |:---|:---:|
 |keaunsolNa|--|
@@ -28,7 +28,31 @@
 |--|--|
 |--|--|
 
-:trophy: Week Study 
+🥇 Master Plan
+|주차|알고리즘|소요시간|
+|:---|:---:|:---:|
+|1주차|배열(Array)|--|
+|2주차|시간복잡도란? Input, Output|--|
+|3주차|정렬(Sort)|--|
+|4주차|조합과 순열|--|
+|5주차|Two Pointers, Sliding Window|--|
+|6주차|Stack, Queue(자료구조)|--|
+|7주차|HashMap, TreeSet(자료구조)|--|
+|8주차|재귀|--|
+|9주차|Graph|--|
+|10주차|DFS, BFS|--|
+|11주차|Greedy Algorithm|--|
+|12주차|DP(Dynamic Programming)|--|
+|추가 문제|이분 탐색(Binary Search)|--|
+|추가 문제|분할 정복(Divide And Conquer)|--|
+|추가 문제|우선순위 큐(Priority Queue)|--|
+|추가 문제|백 트랙킹(Back Tracking)|--|
+|추가 문제|벨만 포드(Bellman-Ford)|--|
+|추가 문제|쿼드 트리(Quad Tree)|--|
+|추가 문제|플로이드 와샬(Floyd Warshall)|--|
+|추가 문제|벨만 포드(Bellman-Ford)|--|
+
+🏆 Week Study 
 |날짜|문제 알고리즘|문제|
 |:---|:---:|:---:|
 |--|--|--|
