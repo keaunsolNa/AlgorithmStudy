@@ -1,4 +1,4 @@
-#  Hello World - 2557 
+#  접미사 배열 - 11656
 
 [문제 링크](https://www.acmicpc.net/problem/11656) 
 
