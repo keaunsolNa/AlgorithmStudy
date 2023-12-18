@@ -28,7 +28,7 @@
 |keaunsolNa|--|
 |hvsundev|--|
 |changhachangha|--|
-|--|--|
+|hxnky|--|
 
 🥇 Master Plan
 |주차|알고리즘|소요시간|
