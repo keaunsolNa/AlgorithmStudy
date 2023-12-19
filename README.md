@@ -23,12 +23,12 @@
 <p> README.md 파일은 문제에 대한 내용(백준허브 추천) + 문제 풀이 시 접근방법, 상세 풀이 등을 적습니다.</p>
 
 ☀️ Contributors
-|아이디|참여문제|
+|아이디|GitHub|
 |:---|:---:|
-|🌠keaunsolNa|--|
-|hvsundev|--|
-|changhachangha|--|
-|hxnky|--|
+|keaunsolNa|https://github.com/keaunsolNa|
+|hvsundev|https://github.com/hvsundev|
+|changhachangha|https://github.com/changhachangha|
+|hxnky|https://github.com/hxnky|
 
 🥇 Master Plan
 |주차|알고리즘|소요시간|
