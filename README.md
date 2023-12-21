@@ -16,17 +16,19 @@
 ### 주 1개 이상 공통 문제를 선정, 풀이합니다. 
 <p> 공통 문제는 팀원 모두가 참여하여 풀이, '문제이름_본인이름' 으로 파일을 만들어 푸시합니다.</p>  
 
+### Master Plan에 의거, 선정된 알고리즘에 대해 README.md 파일로 작성합니다.
+<p> 알고리즘 별 학습 노트 repo에 올립니다. </p>
+
 ## 코드 작성시 README.md 파일도 함께 작성합니다.
 <p> README.md 파일은 문제에 대한 내용(백준허브 추천) + 문제 풀이 시 접근방법, 상세 풀이 등을 적습니다.</p>
 
 ☀️ Contributors
-|아이디|참여문제|
+|아이디|GitHub|
 |:---|:---:|
-|keaunsolNa|--|
-|--|--|
-|--|--|
-|--|--|
-|--|--|
+|keaunsolNa|https://github.com/keaunsolNa|
+|hvsundev|https://github.com/hvsundev|
+|changhachangha|https://github.com/changhachangha|
+|hxnky|https://github.com/hxnky|
 
 🥇 Master Plan
 |주차|알고리즘|소요시간|
