@@ -23,12 +23,12 @@
 <p> README.md 파일은 문제에 대한 내용(백준허브 추천) + 문제 풀이 시 접근방법, 상세 풀이 등을 적습니다.</p>
 
 ☀️ Contributors
-|아이디|참여문제|
+|아이디|GitHub|
 |:---|:---:|
-|keaunsolNa|--|
-|hvsundev|--|
-|changhachangha|--|
-|hxnky|--|
+|keaunsolNa|https://github.com/keaunsolNa|
+|hvsundev|https://github.com/hvsundev|
+|changhachangha|https://github.com/changhachangha|
+|hxnky|https://github.com/hxnky|
 
 🥇 Master Plan
 |주차|알고리즘|소요시간|
@@ -57,4 +57,8 @@
 🏆 Week Study 
 |날짜|문제 알고리즘|문제|
 |:---|:---:|:---:|
+|2023.12.21|배열(Array)|[백준 배열 합치기](https://www.acmicpc.net/problem/11728), [프로그래머스 자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) |
+|--|--|--|
+|--|--|--|
+|--|--|--|
 |--|--|--|
