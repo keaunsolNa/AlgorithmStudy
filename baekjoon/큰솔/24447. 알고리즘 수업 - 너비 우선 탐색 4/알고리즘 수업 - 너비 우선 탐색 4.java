@@ -1,100 +1,99 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class Main {
 
-    // 소수를 담기 위한 배열
-    private static boolean[] isPrime;
+    // 그래프
+    private static ArrayList<ArrayList<Integer>> list = new ArrayList<>();
+    // 깊이를 기록할 배열
+    private static long[] visited;
+    // 방문한 순서를 기록할 배열
+    private static long[] seq;
     public static void main(String[] args) throws NumberFormatException, IOException {
+
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
 
-        // TC
-        int t = Integer.parseInt(br.readLine());
-        // 소수를 담기 위한 List
-        List<Integer> list = new ArrayList<>();
+        // 노드의 정점, 간선, 시작 정점
+        int n = Integer.parseInt(st.nextToken());
+        int m = Integer.parseInt(st.nextToken());
+        int r = Integer.parseInt(st.nextToken());
 
-        // 에라토스테네스의 체 실행
-        sieve();
+        // 방문한 순서를 기록할 배열
+        seq = new long[n + 1];
+        // 깊이를 기록할 배열
+        visited = new long[n + 1];
 
-        // 실행 결과값으로 List 채우기
-        for(int i = 0; i < isPrime.length; i++) if(isPrime[i]) list.add(i);
+        // 깊이 배열 초기화
+        for(int i = 1; i <= n; i++) visited[i] = -1;
 
-        // TC만큼 반복 시행
-        while(t --> 0) {
+        // 그래프 초기화
+        for(int i = 0; i <= n; i++) list.add(new ArrayList<>());
 
-            // 타겟이 되는 k
-            int k = Integer.parseInt(br.readLine());
+        // 그래프에 값 대입
+        for(int i = 0; i < m; i++) {
 
-            // 반복문 탈출을 위한 플래그 변수
-            boolean flag = false;
-            // 정답을 담기 위한 int[] 변수
-            int[] answer = new int[3];
+            // 간선 정보 정점 u와 가중치 v
+            st = new StringTokenizer(br.readLine());
+            int u = Integer.parseInt(st.nextToken());
+            int v = Integer.parseInt(st.nextToken());
 
-            // 리스트의 사이즈만큼 3바퀴 돈다.
-            for(int i = 0; i < list.size(); i++) {
-
-                // 내장 for문
-                for(int j = 0; j < list.size(); j++) {
-
-                    // 내장 향상된 for문
-                    for (Integer integer : list) {
-
-                        // 리스트의 값들을 더해서 target이 됐을 경우
-                        if (list.get(i) + list.get(j) + integer == k) {
-
-                            // 탈출 변수 true
-                            flag = true;
-
-                            // 정답 담기
-                            answer[0] = list.get(i);
-                            answer[1] = list.get(j);
-                            answer[2] = integer;
-                            break;
-                        }
-                    }
-                    // 값을 찾았을 경우 break
-                    if(flag) break;
-                }
-                if(flag) break;
-            }
-
-            // 정답 오름차순으로 정렬
-            Arrays.sort(answer);
-
-            // 정답의 가장 큰 값이 0이라면 일치하는 값을 찾지 못 한 초기값이므로, 0을 출력한다.
-            System.out.println(answer[2] == 0 ? 0 : answer[0] + " " + answer[1] + " " + answer[2]);
+            // 정점 u에 가중치 v를 담는다.
+            list.get(u).add(v);
+            // 정점 v에 가중치 u를 담는다. (양방향 그래프)
+            list.get(v).add(u);
         }
 
+        // 인접 정점들을 오름차순 정렬
+        for(int i = 1; i <= n; i++) Collections.sort(list.get(i));
+
+        // bfs 시행
+        bfs(r);
+
+        // 정답을 담을 변수
+        long ans = 0;
+
+        // 방문한 순서 * 깊이로 모든 노드에 대한 di * ti를 구한다.
+        for(int i = 1; i <= n; i++) ans += seq[i] * visited[i];
+
+        // 정답 출력
+        System.out.println(ans);
     }
 
-    // 에라토스테네스의 체 알고리즘
-    private static void sieve() {
+    // BFS, 시작 정점 r과 간선 정보를 받는다.
+    private static void bfs(int r) {
 
-        // 7 <= K <= 1,000 이므로, 1001 크기의 배열 선언으로 충분하다.
-        isPrime = new boolean[1001 + 1];
+        // 방문을 기록할 queue 선언
+        Queue<Integer> queue = new LinkedList<>();
+        // 큐에 시작 정점 r의 정보를 담는다.
+        queue.add(r);
+        // 시작 정점에 대해 방문했다고 표시
+        visited[r] = 0;
 
-        // 초기 배열은 모두 true
-        Arrays.fill(isPrime, true);
+        // 현재 위치를 표시할 변수
+        int seqCnt = 1;
+        // 방문 순서에 가중치 적용
+        seq[r] = seqCnt++;
 
-        // 소수에는 0, 1을 제외하므로 false
-        isPrime[0] = false;
-        isPrime[1] = false;
+        while(!queue.isEmpty()) {
 
-        // 2부터 시작하여 제곱근의 크기만큼 반복문 시행
-        for (int i = 2; i * i <= 1001; i++) {
+            // 큐의 맨 앞쪽 요소 삭제
+            int cur = queue.poll();
 
-            // i가 소수일 경우 (2로부터 시작하므로 소수임이 입증)
-            if (isPrime[i]) {
+            // 정점 u의 인접 정점 집합. (정점 번호 오름차순 방문)
+            for(int num : list.get(cur)) {
 
-                // 소수에 자기 자신을 더한 값은 소수가 아니다. (명제)
-                for (int j = 2 * i; j < 1001 + 1; j += i) {
+                // 아직 방문하지 않았다면
+                if(visited[num] == -1) {
 
-                    // 소수가 아닌 값은 false 처리.
-                    isPrime[j] = false;
+                    // 방문했다고 표시한 뒤
+                    queue.add(num);
+                    // 노드의 깊이는 전 노드의 깊이 + 1
+                    visited[num] = visited[cur] + 1;
+                    // 방문 순서에 가중치를 적용한다.
+                    seq[num] = seqCnt++;
                 }
             }
         }
