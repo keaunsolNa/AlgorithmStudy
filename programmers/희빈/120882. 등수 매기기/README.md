@@ -1,4 +1,4 @@
-# [level 0] 등수 매기기 - 121219 
+# [level 0] 등수 매기기 - 120882 
 
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120882) 
 
