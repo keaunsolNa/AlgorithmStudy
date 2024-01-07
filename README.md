@@ -35,11 +35,11 @@
 |:---|:---:|:---:|
 |1주차|배열(Array)|12.21 ~ 12.28|
 |2주차|시간복잡도란? Input, Output|12.28 ~ 01.06|
-|3주차|정렬(Sort)|--|
-|4주차|조합과 순열|--|
-|5주차|Two Pointers, Sliding Window|--|
-|6주차|Stack, Queue(자료구조)|--|
-|7주차|HashMap, TreeSet(자료구조)|--|
+|3주차|Stack, Queue(자료구조)|01.07 ~ |
+|4주차|HashMap, TreeSet(자료구조)|--|
+|5주차|정렬(Sort)|--|
+|6주차|조합과 순열|--|
+|7주차|Two Pointers, Sliding Window|--|
 |8주차|재귀|--|
 |9주차|Graph|--|
 |10주차|DFS, BFS|--|
@@ -55,10 +55,10 @@
 |추가 문제|벨만 포드(Bellman-Ford)|--|
 
 🏆 Week Study 
-|날짜|문제 알고리즘|문제|
-|:---|:---:|:---:|
-|2023.12.21|배열(Array)|[백준 배열 합치기](https://www.acmicpc.net/problem/11728), [프로그래머스 자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932) |
-|2023.01.06|Input, Output|[백준 빠른 A+B](https://www.acmicpc.net/problem/15552), [프로그래머스 문자열 여러 번 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/181913)|
-|--|--|--|
+|날짜|문제 알고리즘|문제|🏆|
+|:---|:---:|:---:|:---:|
+|2023.12.21|배열(Array)|[백준 배열 합치기](https://www.acmicpc.net/problem/11728), [프로그래머스 자연수 뒤집어 배열로 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12932)|---|
+|2023.01.06|Input, Output|[백준 빠른 A+B](https://www.acmicpc.net/problem/15552), [프로그래머스 문자열 여러 번 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/181913)|---|
+|2023.01.14|Stack, Queue|[백준 괄호](https://www.acmicpc.net/problem/9012), [프로그래머스 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|---|
 |--|--|--|
 |--|--|--|
