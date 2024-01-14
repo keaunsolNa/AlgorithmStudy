@@ -1,0 +1,25 @@
+function solution(s){
+    //stack 배열
+    let stack = [];
+
+    //주어진 배열 순회
+    for(let i=0; i<s.length; i++){
+        //현재 값이 '('일 경우 stack에 push
+        //그 외 '('일 경우 stack이 비었을 경우 false return 아니라면 stack에서 pop()
+        if(s[i] === '(')
+            stack.push(s[i]);
+        else{
+            if(stack.length > 0)
+                stack.pop();
+            else{
+                return false;
+            }
+        }
+
+    }
+    // '('가 더 많은 경우 잘못됐음으로 false return
+    if( stack.length > 0)
+        return false;
+
+    return true;
+}
