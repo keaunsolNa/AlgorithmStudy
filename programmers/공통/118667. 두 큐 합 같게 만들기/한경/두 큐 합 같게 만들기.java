@@ -29,9 +29,13 @@ public class ps118667 {
 		}
 
 		// 두 큐의 합이 다르면
-		while (sum1 != sum2) {
-
+		while (sum1 != sum2) 
 			// 최대 길이 : 다 옮겨서 넣었는데도 합이 다름
+			// --> 수정 : 연산횟수(answer)가 2개의 배열이 있을 때 최대 조합(배열1의 길이 + 배열2의 길이) * 2 이상이면 합이 같을 수 없음
+			// 또는
+			// --> q1의 원소가 전부 q2로 넘어갔을 때 = queue1.length
+			// --> q2의 원소를 전부 q1으로 넘길 때 = queue1.length * 2
+			// 따라서 queue1.length * 3 도 가능
 			if (answer > (queue1.length + queue2.length) * 2)
 				return -1;
 
