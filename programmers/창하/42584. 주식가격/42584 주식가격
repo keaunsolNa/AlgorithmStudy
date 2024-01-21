@@ -1,0 +1,50 @@
+//이중 배열을 통한 풀이
+function solution(prices) {
+    //prices의 배열의 크기만큼의 0으로 초기화된 배열 생성
+    var answer = Array(prices.length).fill(0)
+
+    //prices의 크기만큼 반복
+    for(let i = 0; i < prices.length; i++){
+        //현재 index부터 prices의 크기까지 반복
+        for(let j = i + 1; j < prices.length; j++){
+            //현재 인덱스의 값보다 뒤의 값이 작을때 까지 현재 인덱스의 값 증가
+            answer[i]++
+            //작다면 반복 중지
+            if( prices[i] > prices[j]) break;
+        }
+    }
+    return answer;
+}
+
+
+//문제의 의도에 맞게 스택을 사용하여 푼 풀이
+//stack에 버틴 시간을 담기로 함
+function solution(prices) {
+    //현재 가격의 크기만큼 0으로 초기화한 배열
+    var answer = Array(prices.length).fill(0)
+    //버틴 시간을 담을 stack
+    var stack = [];
+
+    //입력받은 배열 prices를 순회
+    prices.forEach((item,idx)=>{
+        
+        //현재 stack의 마지막값을 인덱스로 가지는 prices의 값 (현재 값 이전의 값들)
+        //현재 값과 이전의 값들을 비교하며 이전값이 현재값보다 클경우 현재시간에서 버틴시간을 뺀 값을 answer[이전 값 인덱스]에 저장
+        while( prices[stack[stack.length - 1]] > item){
+            const top = stack.pop();
+            answer[top] = idx - top;
+        }
+        
+        //stack에 현재 시간을 삽입
+        stack.push(idx);
+    });
+
+    //stack안에 있는 값은 끝날때까지 작은 값이 없었음
+    //prices.length - 1의 값에서 스택에 남아있는 인덱스를 제거하여 answer[index]에 삽입
+    while(stack.length > 0){
+        const top = stack.pop()
+        answer[top] = prices.length - 1 - top
+    }
+
+    return answer;
+}
