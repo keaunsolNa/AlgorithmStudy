@@ -1,6 +1,5 @@
 function solution(bridge_length, weight, truck_weights) {
   const currentBridge = []
-  let result = []
   let count = 0
 
   while (truck_weights.length !== 0) {
