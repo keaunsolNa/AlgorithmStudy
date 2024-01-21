@@ -38,8 +38,8 @@
 |:---|:---:|:---:|
 |1회차|배열(Array)|12.21 ~ 12.28|
 |2회차|시간복잡도란? Input, Output|12.28 ~ 01.06|
-|3회차|Stack, Queue(자료구조)|01.07 ~ |
-|4회차|HashMap, TreeSet(자료구조)|--|
+|3회차|Stack, Queue(자료구조)|01.07 ~ 01.21|
+|4회차|HashMap, TreeSet(자료구조)|01.22 ~ |
 |5회차|정렬(Sort)|--|
 |6회차|조합과 순열|--|
 |7회차|Two Pointers, Sliding Window|--|
@@ -64,4 +64,5 @@
 |2023.01.06|Input, Output|[백준 빠른 A+B](https://www.acmicpc.net/problem/15552), [프로그래머스 문자열 여러 번 뒤집기](https://school.programmers.co.kr/learn/courses/30/lessons/181913)|---|
 |2023.01.14|Stack, Queue|[백준 괄호](https://www.acmicpc.net/problem/9012), [프로그래머스 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|---|
 |2023.01.21|Stack, Queue|[백준 후위 표기식](https://www.acmicpc.net/problem/1918), [백준 타노스는 요세푸스가 밉다](https://www.acmicpc.net/problem/28066), [프로그래머스 다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|
+|2023.01.28|HashMap, TreeSet|[백준 정보 상인 호석](https://www.acmicpc.net/problem/22252), [프로그래머스 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|---|
 |--|--|--|
