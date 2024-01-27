@@ -33,7 +33,7 @@ System.out.println(set);  //  [e, H, l, o] 출력
 - 효율적인 테스트 : 해싱을 사용하여 요소를 구성하므로 Set 내에서 항목 존재 여부를 테스트하기에 효율적
 - List에서 중복 제거 : List를 Set으로 변환하고 다시 List로 변환 시 중복 요소를 제거하고 요소의 순서 유지
 
-![img.png](img.png)
+![img](./img/img.png)
 
 ### **HashSet<E>**
 
