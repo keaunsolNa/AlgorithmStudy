@@ -36,11 +36,11 @@
 🥇 Master Plan
 |주차|알고리즘|소요시간|
 |:---|:---:|:---:|
-|1회차|배열(Array)|12.21 ~ 12.28|
-|2회차|시간복잡도란? Input, Output|12.28 ~ 01.06|
-|3회차|선형 자료구조(Stack, Queue)|01.07 ~ 01.21|
-|4회차|비선형 자료구조(HashMap, TreeSet)|01.22 ~ |
-|5회차|정렬(Sort)|--|
+|1회차|배열(Array)|2023.12.21 ~ 2023.12.28|
+|2회차|시간복잡도란? Input, Output|2023.12.28 ~ 2023.01.06|
+|3회차|선형 자료구조(Stack, Queue)|2023.01.07 ~ 2023.01.21|
+|4회차|비선형 자료구조(HashMap, TreeSet)|2023.01.22 ~ 2023.01.28|
+|5회차|정렬(Sort)|2024.01.29 ~ |
 |6회차|조합과 순열|--|
 |7회차|Two Pointers, Sliding Window|--|
 |8회차|재귀|--|
@@ -65,4 +65,5 @@
 |2023.01.14|Stack, Queue|[백준 괄호](https://www.acmicpc.net/problem/9012), [프로그래머스 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)|
 |2023.01.21|Stack, Queue|[백준 후위 표기식](https://www.acmicpc.net/problem/1918), [백준 타노스는 요세푸스가 밉다](https://www.acmicpc.net/problem/28066), [프로그래머스 다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|
 |2023.01.28|HashMap, TreeSet|[백준 정보 상인 호석](https://www.acmicpc.net/problem/22252), [프로그래머스 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|
-|--|--|
+|2023.02.04|Sort|[백준 알고리즘 수업 - 퀵 정렬 2](https://www.acmicpc.net/problem/24091), [프로그래머스 가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|
+|||
