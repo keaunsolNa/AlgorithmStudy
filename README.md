@@ -29,9 +29,9 @@
 |아이디|GitHub|
 |:---|:---:|
 |keaunsolNa|https://github.com/keaunsolNa|
-|hvsundev|https://github.com/hvsundev|
 |changhachangha|https://github.com/changhachangha|
 |hxnky|https://github.com/hxnky|
+|~~hvsundev~~|~~https://github.com/hvsundev~~|
 
 🥇 Master Plan
 |주차|알고리즘|소요시간|
@@ -66,4 +66,5 @@
 |2023.01.21|Stack, Queue|[백준 후위 표기식](https://www.acmicpc.net/problem/1918), [백준 타노스는 요세푸스가 밉다](https://www.acmicpc.net/problem/28066), [프로그래머스 다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583)|
 |2023.01.28|HashMap, TreeSet|[백준 정보 상인 호석](https://www.acmicpc.net/problem/22252), [프로그래머스 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|
 |2023.02.04|Sort|[백준 알고리즘 수업 - 퀵 정렬 2](https://www.acmicpc.net/problem/24091), [프로그래머스 가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|
+|2023.02.11|Sort|[백준 버블 소트](https://www.acmicpc.net/problem/1377), [프로그래머스 H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|
 |||
