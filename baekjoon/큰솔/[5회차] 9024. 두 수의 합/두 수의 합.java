@@ -49,7 +49,7 @@ public class Main {
 
                     // min이 gap 초과라면 이전 누적치를 초기화 한다.
                     if(min > gap) ans = 0;
-                    // min 갱신
+                    // 최솟값 갱신
                     min = gap;
                     // ans++
                     ans++;
