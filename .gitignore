@@ -116,3 +116,4 @@ package-lock.json
 /baekjoon/창하/11656. 접미사 배열/
 
 *.iml
+*.idea
