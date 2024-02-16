@@ -41,7 +41,7 @@
 |3회차|선형 자료구조(Stack, Queue)|2023.01.07 ~ 2023.01.21|
 |4회차|비선형 자료구조(HashMap, TreeSet)|2023.01.22 ~ 2023.01.28|
 |5회차|정렬(Sort)|2024.01.29 ~ 2024.02.12|
-|6회차|조합과 순열|2024.02.12 ~ |
+|6회차|순열과 조합|2024.02.12 ~ |
 |7회차|Two Pointers, Sliding Window|--|
 |8회차|재귀|--|
 |9회차|Graph|--|
@@ -67,5 +67,5 @@
 |2023.01.28|HashMap, TreeSet|[백준 정보 상인 호석](https://www.acmicpc.net/problem/22252), [프로그래머스 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|
 |2023.02.04|Sort|[백준 알고리즘 수업 - 퀵 정렬 2](https://www.acmicpc.net/problem/24091), [프로그래머스 가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|
 |2023.02.11|Sort|[백준 버블 소트](https://www.acmicpc.net/problem/1377), [프로그래머스 H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|
-|2023.02.11|조합과 순열|[백준 조합](https://www.acmicpc.net/problem/16134), [프로그래머스 스타 수열](https://school.programmers.co.kr/learn/courses/30/lessons/70130)|
+|2023.02.11|순열과 조합|[백준 조합](https://www.acmicpc.net/problem/16134), [프로그래머스 스타 수열](https://school.programmers.co.kr/learn/courses/30/lessons/70130)|
 |||
