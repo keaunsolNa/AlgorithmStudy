@@ -17,7 +17,7 @@ public class Main {
         long b = 1;
 
         // 모듈로 곱셈 역원
-        for(int i = 0; i < r; ++i) {
+        for (int i = 0; i < r; ++i) {
             a *= (n - i);
             b *= (r - i);
             a %= MOD;

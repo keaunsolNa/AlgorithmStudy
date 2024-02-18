@@ -38,11 +38,11 @@
 |:---|:---:|:---:|
 |1회차|배열(Array)|2023.12.21 ~ 2023.12.28|
 |2회차|시간복잡도란? Input, Output|2023.12.28 ~ 2023.01.06|
-|3회차|선형 자료구조(Stack, Queue)|2023.01.07 ~ 2023.01.21|
-|4회차|비선형 자료구조(HashMap, TreeSet)|2023.01.22 ~ 2023.01.28|
-|5회차|정렬(Sort)|2024.01.29 ~ 2024.02.12|
-|6회차|순열과 조합|2024.02.12 ~ |
-|7회차|Two Pointers, Sliding Window|--|
+|3회차|선형 자료구조(Stack, Queue)|2023.01.06 ~ 2023.01.21|
+|4회차|비선형 자료구조(HashMap, TreeSet)|2023.01.21 ~ 2023.01.28|
+|5회차|정렬(Sort)|2024.01.28 ~ 2024.02.12|
+|6회차|순열과 조합|2024.02.12 ~ 2024.02.18|
+|7회차|Two Pointers, Sliding Window|2024.02.18 ~|
 |8회차|재귀|--|
 |9회차|Graph|--|
 |10회차|DFS, BFS|--|
@@ -67,5 +67,6 @@
 |2023.01.28|HashMap, TreeSet|[백준 정보 상인 호석](https://www.acmicpc.net/problem/22252), [프로그래머스 베스트앨범](https://school.programmers.co.kr/learn/courses/30/lessons/42579)|
 |2023.02.04|Sort|[백준 알고리즘 수업 - 퀵 정렬 2](https://www.acmicpc.net/problem/24091), [프로그래머스 가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)|
 |2023.02.11|Sort|[백준 버블 소트](https://www.acmicpc.net/problem/1377), [프로그래머스 H-Index](https://school.programmers.co.kr/learn/courses/30/lessons/42747)|
-|2023.02.11|순열과 조합|[백준 조합](https://www.acmicpc.net/problem/16134), [프로그래머스 스타 수열](https://school.programmers.co.kr/learn/courses/30/lessons/70130)|
+|2023.02.18|순열과 조합|[백준 조합](https://www.acmicpc.net/problem/16134), [프로그래머스 스타 수열](https://school.programmers.co.kr/learn/courses/30/lessons/70130)|
+|2023.02.26|Two Pointers, Sliding Window|[백준 합이 0](https://www.acmicpc.net/problem/3151), [프로그래머스 입국심사](https://school.programmers.co.kr/learn/courses/30/lessons/43238)|
 |||
