@@ -26,7 +26,7 @@ class Solution {
     
 
     private static void change(int right, int left, int[] answer) {
-    
+
         if (right - 1 - left < answer[1] - answer[0]) {
                 answer[0] = left;
                 answer[1] = right - 1;
