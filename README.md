@@ -44,10 +44,10 @@
 |6회차|순열과 조합|2024.02.12 ~ 2024.02.18|
 |7회차|Two Pointers, Sliding Window|2024.02.19 ~ 2024.03.04|
 |8회차|재귀|2024.03.04 ~ |
-|9회차|Graph|--|
-|10회차|DFS, BFS|--|
-|11회차|Greedy Algorithm|--|
-|12회차|DP(Dynamic Programming)|--|
+|9회차|DP(Dynamic Programming)|--|
+|10회차|Greedy Algorithm|--|
+|11회차|Graph|--|
+|12회차|DFS, BFS|--|
 |추가 문제|이분 탐색(Binary Search)|--|
 |추가 문제|분할 정복(Divide And Conquer)|--|
 |추가 문제|우선순위 큐(Priority Queue)|--|
